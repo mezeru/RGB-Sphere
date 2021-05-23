@@ -35,7 +35,7 @@ const pointLight2 = new THREE.PointLight(0xff0000, 1.5);
 pointLight2.position.set(-1.33,1.16,-0.46);
 scene.add(pointLight2)
 
-const pointLight = new THREE.PointLight(0x008000, 0.5);
+const pointLight = new THREE.PointLight(0x008000, 1);
 pointLight.position.set(1,1,10);
 scene.add(pointLight)
 

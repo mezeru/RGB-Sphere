@@ -12,7 +12,7 @@ body {
 
 html ul.ui-widget-content::-webkit-scrollbar,
 body ul.ui-widget-content::-webkit-scrollbar {
-  width: 0px;
+  width: 10px;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
   top: 0;
   left: 0;
   outline: none;
-  mix-blend-mode: color-dodge;
+  mix-blend-mode: lighten;
 }
 
 .container {
