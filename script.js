@@ -15,15 +15,15 @@ const canvas = document.querySelector('canvas.webgl')
 const scene = new THREE.Scene()
 
 // Objects
-const geometry = new THREE.SphereBufferGeometry(.6, 32, 32);
+const geometry = new THREE.SphereBufferGeometry(.7, 32, 32);
 
 // Materials
 
 const material = new THREE.MeshStandardMaterial();
-material.color = new THREE.Color(0x292929)
+material.color = new THREE.Color(0xd9d9d9)
 material.emissive = new THREE.Color(0x0);
 material.roughness = 0.25;
-material.metalness = 0.6;
+material.metalness = 0.65;
 material.normalMap = normalTexture;
 
 // Mesh
@@ -35,11 +35,11 @@ const pointLight2 = new THREE.PointLight(0xff0000, 1.5);
 pointLight2.position.set(-1.33,1.16,-0.46);
 scene.add(pointLight2)
 
-const pointLight = new THREE.PointLight(0x008000, 1);
+const pointLight = new THREE.PointLight(0x008000, 0.18);
 pointLight.position.set(1,1,10);
 scene.add(pointLight)
 
-const pointLight3 = new THREE.PointLight(0x0033cc, 0.7);
+const pointLight3 = new THREE.PointLight(0x0033cc, 0.8);
 pointLight3.position.set(5,-5,-2);
 scene.add(pointLight3)
 
