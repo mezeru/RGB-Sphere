@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 120vh;
+  font-family: "Poppins";
+  background: #0e0d0d;
+}
+
+html ul.ui-widget-content::-webkit-scrollbar,
+body ul.ui-widget-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+  mix-blend-mode: lighten;
+}
+
+.container {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.container h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+/*# sourceMappingURL=style.css.map */
