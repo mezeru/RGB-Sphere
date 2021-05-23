@@ -7,12 +7,12 @@ html,
 body {
   height: 120vh;
   font-family: "Poppins";
-  background: #0e0d0d;
+  background: #1d1c1c;
 }
 
 html ul.ui-widget-content::-webkit-scrollbar,
 body ul.ui-widget-content::-webkit-scrollbar {
-  width: 10px;
+  width: 0px;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
   top: 0;
   left: 0;
   outline: none;
-  mix-blend-mode: lighten;
+  mix-blend-mode: color-dodge;
 }
 
 .container {
