@@ -1,3 +1,3 @@
 # RGB-Sphere
 
-Exploring 3js Library
+Exploring 3JS Library
